@@ -3,7 +3,7 @@ from rest_framework.views import APIView
 from main.models import MyModel
 from main.helpers import parse_search_phrase
 from rest_framework.response import Response
-from main.serializers import MyModelSerializer
+from main.api.v1.serializers import MyModelSerializer
 from rest_framework.status import HTTP_200_OK
 
 # Create your views here.
