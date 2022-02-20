@@ -3,5 +3,7 @@ from main.models import MyModel
 
 
 class MyModelSerializer(serializers.ModelSerializer):
-    model = MyModel
-    fields = '__all__'
+
+    class Meta:
+        model = MyModel
+        fields = '__all__'

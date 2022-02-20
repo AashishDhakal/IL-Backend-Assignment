@@ -6,6 +6,7 @@
 * Create a virtual environment
 * Install requirements
 * Run django server and the api is excessible at `/filter-api/`
+* For tests: `python manage.py test`
 
 # Examples:
 
